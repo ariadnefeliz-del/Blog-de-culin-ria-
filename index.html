@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blogTech</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>culinária bahiana  </h1>
+        <p>paso aposo do meu primeiro vlog</p>
+    </header>
+    <main>
+        <img src="blog de colinarias.png" alt="">
+
+        <div>
+        <h2>meu primeiro posts</h2>
+        <p class="autor">Por: Ariadne Gondim</p>
+        <p>vamos te ensinar receitas da cultura bahiana para voces</p>
+        <button>👨🏾‍🍳<span>0</span></button>
+        </div>
+        
+    </main>
+    <footer>
+        <p> Por: Ariadne Gondim</p>
+    </footer>
+</body>
+
+<script>
+const botão =  documento.querySelector("button");
+botão.addEventListener("click", botãoClicado);
+
+function botãoClicado(){
+    console.log("fui clicado");
+    let texto = botão.querySelector("span");
+    texto.textContent++;
+}
+</script>
+</html>
