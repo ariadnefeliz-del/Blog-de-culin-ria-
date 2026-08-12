@@ -5,7 +5,7 @@ header{
       max-width: 800px;
       margin: 0 auto;
       border: 5px solid #183c63;
-      pedding:15px;
+      padding:15px;
       }
 
       main{
@@ -22,7 +22,7 @@ header{
             background-color: #183c63;
             color:white;
             text-align: center;
-            max: windth 800px;
+            max-width:  800px;
             margin:0 auto;
       }
 
