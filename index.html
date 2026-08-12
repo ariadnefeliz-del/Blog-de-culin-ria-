@@ -21,6 +21,7 @@
         <p class="autor">Por: Ariadne Gondim</p>
         <p>vamos te ensinar receitas da cultura bahiana para voces</p>
         <button>👨🏾‍🍳<span>0</span></button>
+        <button>😑<span>0</span></button>
         </div>
         
     </main>
@@ -31,7 +32,22 @@
 
 <script>
 const botão =  documento.querySelector("button");
-botão.addEventListener("click", botãoClicado);
+
+botoes.forEach(function(botao){
+    let curtiu = false;
+    botao.addEventListener("click",botaoClicado);
+    function botaoClicado(){
+    let texto = botao.querySelector("span");
+    if(curtiu === false);
+    texto.textContent++;
+    curtiu = true;
+    }else{texto.textoContent--;
+    }    
+});
+botão.addEventListener("click", botãoClicado);{
+
+  let = false;
+  }
 
 function botãoClicado(){
     console.log("fui clicado");
