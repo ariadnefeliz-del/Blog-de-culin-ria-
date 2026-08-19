@@ -1,5 +1,5 @@
 header{
-      background-color: rgb(247, 243, 22);
+      background-color: rgb(224, 210, 170);
       color: rgb(27, 26, 26);
       text-align: center;
       max-width: 800px;
@@ -9,18 +9,18 @@ header{
       }
 
       main{
-            background-color: rgb(122, 61, 3);
+            background-color: rgb(224, 210, 170);
             color: #183c63;
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
-            border: 5px solid red;
+            border: 5px solid #df6616;
             padding: 15px;
             display: flex;
       }
 
       footer{
-            background-color: #df6616;
+            background-color: #ecdf25;
             color:white;
             text-align: center;
             max-width:  800px;
