@@ -20,8 +20,8 @@ header{
       }
 
       footer{
-            background-color: #ecdf25;
-            color:white;
+            background-color: rgb(224, 210, 170);
+            color:rgb(0, 0, 0);
             text-align: center;
             max-width:  800px;
             margin:0 auto;
